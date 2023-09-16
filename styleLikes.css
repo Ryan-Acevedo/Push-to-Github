@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 25%;
+    max-width: 650px;
+    background-color: aqua;
+}
+div {
+    /* border: 2px solid black; */
+    margin-top: 1em;
+}
+img {
+    width: 6em;
+}
+.nav {
+    color: white;
+    background-color: black;
+    padding: 1em .5em;
+}
+.feed {
+    text-align: center;
+    margin: .5em 0;
+}
+.main-section {
+    display: flex;
+    justify-content: space-between;
+}
+.main-section-left {
+    margin: 0;
+}
+.avatar {
+    margin: 1em 0;
+}
+.main-section-right {
+    margin: 0;
+
+}
+.main-section-left-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border: 2px solid black;
+    margin-top: 0;
+    background-color: chartreuse;
+}
+.main-section-right-inner {
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1em;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.main-section-right-inner.middle {
+    margin: 1em 0;
+    margin-left: 1em;
+}
+.main-section-right-inner-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-section-right-inner-2 {
+    margin: 0;
+    padding: .2em;
+}
+p {
+    margin-top: 1em;
+}
+.btn {
+    color: black;
+    background-color: yellow;
+    padding: .25em;
+    margin-left: .75em;
+    cursor: pointer;
+    box-shadow: 3px 3px black;
+}

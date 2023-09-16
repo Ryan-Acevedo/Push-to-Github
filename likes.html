@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="styleLikes.css">
+    <script src="scriptLikes.js" defer></script>
+</head>
+<body>
+    <nav class="nav">
+        <h1>Network</h1>
+    </nav>
+    <h2 class="feed">Your Feed</h2>
+    <section class="main-section">
+        <div class="main-section-left">
+            <div class="main-section-left-inner">
+                <img src="user-circle.png" alt="user icon">
+                <a href="#" class="avatar">Add an avatar</a>
+                <h3>James Doe</h3>
+            </div>
+        </div>
+        <div class="main-section-right">
+            <div class="main-section-right-inner">
+                <div class="main-section-right-inner-1">
+                    <h3>Niel M</h3>
+                    <div class="main-section-right-inner-2">
+                        <span id="likes-niel">9 like(s)</span>
+                        <button type="button" class="btn" onclick="addNiel()">Like</button>
+                    </div>
+                </div>
+                    <p>I just set up this new discord bot, let me know what you all think: <a href="#">link</a></p>
+            </div>
+            <div class="main-section-right-inner middle">
+                    <div class="main-section-right-inner-1">
+                        <h3>Nichole K</h3>
+                        <div class="main-section-right-inner-2">
+                            <span id="likes-nichole">12 like(s)</span>
+                            <button type="button" class="btn" onclick="addNichole()">Like</button>
+                        </div>
+                    </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out!</p>
+            </div>   
+            <div class="main-section-right-inner">
+                <div class="main-section-right-inner-1">
+                    <h3>Jim R</h3>
+                    <div class="main-section-right-inner-2">
+                        <span id="likes-jim">9 like(s)</span>
+                        <button type="button" class="btn" onclick="addJim()">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>    
+        </div>
+    </section>
+</body>
+</html>
